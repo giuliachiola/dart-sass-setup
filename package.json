@@ -1,0 +1,16 @@
+{
+  "name": "dartsass-setup",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded scss:public/css",
+    "sass-prod": "sass --no-source-map --style=compressed scss:public/css"
+  },
+  "author": "Giulia Chiola",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.2"
+  }
+}
